@@ -1,9 +1,12 @@
 {
-  "name": "2test-model",
+  "homepage": "https://www.mateofpv.ru/",
+  "name": "mateofpv-ru",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"vite build",
+    "deploy":"gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
