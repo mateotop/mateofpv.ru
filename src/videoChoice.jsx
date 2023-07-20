@@ -17,8 +17,6 @@ export default function VideoChoice() {
       ? (<iframe 
         src="/DoneSiteClip720_35_mute.mp4" 
         type="video/mp4" 
-        muted 
-        loop 
         autoPlay 
         />) 
       : (<video 
